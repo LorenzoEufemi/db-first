@@ -1,0 +1,12 @@
+CARS
+id - INT - PRIMARY_KEY,
+marca - VARCHAR(40) - NOT NULL,
+modello - VARCHAR(40) - NOT NULL,
+anno - YEAR - NOT NULL,
+chilometraggio - UNSIGNED INT,
+carburante - VARCHAR(20) NOT NULL,
+colore - VARCHAR(30), 
+prezzo - DECIMAL(8,2) NOT NULL,
+stato - VARCHAR(20) NOT NULL,
+descrizione - TEXT,
+data_inserimento DATETIME NOT NULL
